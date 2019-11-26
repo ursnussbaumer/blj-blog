@@ -1,4 +1,4 @@
 # blj-blog
 BLJ Projekt "Blog" 
 
-Aufgabenstellung: https://github.com/IctBerufsbildungZentralschweiz/BLJ-PHP-Grundlagen/tree/master/Tag%203-6%20Projekt
+[Aufgabenstellung](https://github.com/IctBerufsbildungZentralschweiz/BLJ-PHP-Grundlagen/tree/master/Tag%203-6%20Projekt/Projekte/01%20Blog)
