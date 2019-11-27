@@ -4,6 +4,7 @@ $routes = [
     '' => 'views/list.view.php',
     'list' => 'views/list.view.php', 
     'add' => 'views/add.view.php', 
+    'other-blogs' => 'views/other-blogs.view.php', 
     'thankyou' => 'views/thankyou.view.php'
 ];
 
