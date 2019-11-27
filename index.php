@@ -9,8 +9,9 @@
 </head>
 <body>
     <div id="wrapper">
-        <h1>Mein Blog</h1>
-    
+        <header>
+            <h1>Mein Blog</h1>
+        </header>
         <?php 
             require 'routes.php';
         ?>
