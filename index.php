@@ -3,18 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>MyBlog</title>
 </head>
 <body>
-    <?php 
-        require 'views/navigation.view.php' 
-    ?>
+    <div id="wrapper">
+        <h1>Mein Blog</h1>
     
-    <h1>Mein Blog</h1>
-    
-    <?php 
-        require 'views/list.view.php';
-    ?>
+        <?php 
+            require 'routes.php';
+        ?>
+    </div>
 </body>
 </html>

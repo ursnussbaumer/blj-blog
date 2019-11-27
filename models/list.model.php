@@ -1,5 +1,4 @@
 <?php
-
 require 'common/db.php';
 
 $db = connectToDatabase();

@@ -1,3 +1,8 @@
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .post-created {
     font-size: 0.9em;
     font-style: italic;
@@ -12,4 +17,55 @@
 .post-text {
     font-size: 1.2em;
     margin: 5px 0;
+}
+
+.form-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+.form-title {
+    margin-bottom: .7em;
+}
+
+.form-label {
+    margin-top: .7em;
+    margin-bottom: .3em;
+}
+
+fieldset {
+    margin-top: 1.5em;
+}
+
+.form-legend {
+    margin-bottom: .75em;
+}
+
+.form-legend + .form-group > .form-label:first-child {
+    margin-top: 0;
+}
+
+.option-group {
+    margin-top: 2em;
+}
+
+.form-actions {
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.error-box {
+    color: red;
+    background-color: rgb(250, 220, 220);
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding:0;
+}
+
+.error-box ul {
+    margin:0;
+    padding: 10px;
+    list-style-type: none;
 }
