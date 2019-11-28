@@ -18,6 +18,11 @@ require 'views/navigation.view.php';
                 <div class="post-text">
                 <?= $post["post_text"] ?>
                 </div>
+                <?php if($post["image_url"] != ''): ?>
+                <div class="post-image">
+                    <img src="<?= $post["image_url"] ?>" alt="Bild" />
+                </div>
+                <?php endif; ?>
                 <div class="post-created">
                     erstellt von <?= $post["created_by"] ?> am <?= $post["created_at"] ?>
                 </div>

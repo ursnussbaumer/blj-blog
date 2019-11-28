@@ -31,6 +31,10 @@
             <label for="new-post" class="form-label">Dein Beitrag</label>
             <textarea name="new-post" id="new-post" rows="3" class="form-control"><?= $post ?></textarea>
         </div>
+        <div class="form-group">
+            <label class="form-label" for="new-post-title">Bild (URL)</label>
+            <input class="form-control" type="text" id="image-url" name="image-url" value="<?= $imgURL ?>">
+        </div>
     </fieldset>
     <div class="form-actions">
         <input class="btn btn-primary" type="submit" value="Beitrag abschicken">
