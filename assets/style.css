@@ -23,6 +23,13 @@ main {
 
 .other-blogs {
     margin: 20px 0;
+    width: 80%;
+}
+
+.other-blogs li {
+    list-style-type: none;
+    margin: 10px 0;
+    display: inline-block;
 }
 
 .posts {

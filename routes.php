@@ -13,7 +13,7 @@ $uriComponents = explode('/', $uri);
 $page = $uriComponents[4] ?? '';
 
 if (array_key_exists($page, $routes)) {
-    // echo 'Page: ' . $page . '<br>' . 'Route: ' . $routes[$page];
+    //echo 'Page: ' . $page . '<br>' . 'Route: ' . $routes[$page];
     require $routes[$page];
 } 
 else {
