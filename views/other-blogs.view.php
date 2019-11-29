@@ -14,7 +14,7 @@ require 'views/navigation.view.php';
     <section class="other-blogs">
         <ul>
         <?php foreach($ipTable as $ip): ?>
-            <?php if(!(strtolower($ip['vorname']) === 'urs')): ?>
+            <?php if(!(strtolower($ip['vorname']) === 'urss')): ?>
             <li>
                 <a class="btn btn-primary" href="http://<?= $ip['Ip'] ?>" target="_blank">Blog von <?= $ip['vorname'] ?></a><br>
             </li>
