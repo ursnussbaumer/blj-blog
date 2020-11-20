@@ -7,7 +7,7 @@ require 'views/navigation.view.php';
 ?>
 
 <main>
-    <h2>Alle Beiträge</h2>
+    <h2>Beiträge</h2>
 
     <section class="posts">
         <?php foreach($posts as $post): ?>
