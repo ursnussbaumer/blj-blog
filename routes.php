@@ -5,7 +5,8 @@ $routes = [
     'list' => 'views/list.view.php', 
     'add' => 'views/add.view.php', 
     'other-blogs' => 'views/other-blogs.view.php', 
-    'thankyou' => 'views/thankyou.view.php'
+    'thankyou' => 'views/thankyou.view.php',
+    'other-blogs-api' => "views/other-blogs-api.view.php"
 ];
 
 $uri = trim(parse_url($_SERVER['REQUEST_URI'] ?? '',  PHP_URL_PATH)); 

@@ -20,7 +20,7 @@
         <!-- <legend class="form-legend">Einen neuen Beitrag erfassen</legend> -->
         <div class="form-group">
             <label class="form-label" for="name">Dein Name</label>
-            <input class="form-control" type="text" id="name" name="name" value="<?= $post ?>">
+            <input class="form-control" type="text" id="name" name="name" value="<?= $name ?>">
         </div>
     
         <div class="form-group">

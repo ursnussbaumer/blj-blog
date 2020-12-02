@@ -122,3 +122,17 @@ fieldset {
     padding: 10px;
     list-style-type: none;
 }
+
+.others-api {
+    padding: 30px;
+    border-radius: 18px;
+    margin: 30px 0;
+}
+
+section.others-api:nth-child(odd) {
+    background-color: rgb(238, 246, 248);
+}
+
+section.others-api:nth-child(even) {
+    background-color: rgb(238, 246, 248);
+}
